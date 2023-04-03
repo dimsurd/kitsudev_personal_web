@@ -16,9 +16,11 @@ export default function HeroSection() {
         <p className="mb-16 md:mb-12">
           fullstack web developer with 1+ years of experience
         </p>
-        <button className="bg-[#DC9752] hover:border-white max-w-[304px] w-full py-3 rounded-full font-semibold animate-bounce hover:animate-none">
-          Start Our Journey <span className="">↓</span>
-        </button>
+        <a className="text-white hover:text-white" href="#about-section">
+          <button className="bg-[#DC9752] hover:border-white max-w-[304px] w-full py-3 rounded-full font-semibold animate-bounce hover:animate-none">
+            Start Our Journey <span className="">↓</span>
+          </button>
+        </a>
       </div>
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#C06C84]/40 z-20"></div>
       <div className=" absolute inset-0 z-10 bg-bottom bg-cover filter brightness-50 md:brightness-75 w-auto">
